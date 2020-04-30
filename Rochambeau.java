@@ -7,11 +7,11 @@ public class Rochambeau {
       int result;     
       
       if (throw2 > 2) {
-         System.out.println("You are Stupid");
+         System.out.println("Invalid Input");
          System.exit(0);
       } 
       if (throw2 < 0) {
-         System.out.println("You are Stupid");
+         System.out.println("Invalid Input");
          System.exit(0);
       }
       if (throw1 == throw2) {
